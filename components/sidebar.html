@@ -1,0 +1,51 @@
+<div layout="column" style="height: 500px;" ng-cloak="" class="sidenavdemoCustomSidenav">
+
+    <section layout="row" flex="">
+  
+      <md-sidenav class="md-sidenav-left" md-component-id="left" md-disable-backdrop="" md-whiteframe="4">
+  
+        <md-toolbar class="md-theme-indigo ">
+          <h1 class="md-toolbar-tools">Directory Tool Bar</h1>
+        </md-toolbar>
+  
+        <md-content layout="column" layout-margin="">
+         <md-button class="btn1">
+             Faculty
+         </md-button>
+         <md-button class="btn1">
+            Floorplans
+        </md-button>
+          
+        </md-content>
+
+        <md-toolbar layout="row" layout-align="end end" \>
+            <md-button ng-click="sidebar.toggleLeft()"class="btn1">
+                Close this Sidenav
+              </md-button>
+          </md-toolbar>
+  
+      </md-sidenav>
+  
+      <md-content flex="" layout-padding="">
+  
+        <div layout="row" layout-align="start end">
+          
+          
+          <div>
+            <md-button ng-click="sidebar.toggleLeft()" class="md-raised">
+                Toggle Sidenav
+              </md-button>
+          </div>
+  
+        </div>
+  
+      </md-content>
+  
+    </section>
+  
+  </div>
+  
+  <!--
+  Copyright 2016 Google Inc. All Rights Reserved. 
+  Use of this source code is governed by an MIT-style license that can be foundin the LICENSE file at http://material.angularjs.org/HEAD/license.
+  -->

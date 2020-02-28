@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" ng-controller="appCtrl as app">
+
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Department of Digital Signage Technology - Client Portal</title>
+    <!-- ----------------------------------------------------------------------------------------------- -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+    <link rel='stylesheet' href='https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.7/angular-material.css'>
+    <link rel='stylesheet' href='https://material.angularjs.org/1.1.7/docs.css'>
+
+    <!-- AJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+
+    <!-- Additional AJS Modules -->
+    <script src="js/angularjs/ui.router.js"></script>
+    
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-animate.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-aria.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-messages.min.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-114/svg-assets-cache.js'></script>
+    <script src='https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.7/angular-material.js'></script>
+    
+
+    <!-- ----------------------------------------------------------------------------------------------- -->
+</head>
+
+<body>
+    <sidebar></sidebar>
+    <ui-view>
+        <!-- Route-specific html goes here. -->
+    </ui-view>
+
+</body>
+
+
+<!-- ------------------------------------------------------------------------------------------------->
+<!-- APP -->
+<script src="app.js"></script>
+<!-- COMPONENTS -->
+<script src="components/sidebar.js"></script>
+
+
+
+
+
+</html>
